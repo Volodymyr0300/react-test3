@@ -93,22 +93,44 @@
 
 // !
 
-import { recipes } from "./Product";
+// import { recipes } from "./Product";
 
-export default function RecipeList() {
-  return (
-    <div>
-      <h1>Recipes</h1>
-      {recipes.map((recipe) => (
-        <div key={recipe.id}>
-          <h2>{recipe.name}</h2>
-          <ul>
-            {recipe.ingredients.map((ingredient) => (
-              <li key={ingredient}>{ingredient}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
-    </div>
-  );
-}
+// export default function RecipeList() {
+//   return (
+//     <div>
+//       <h1>Recipes</h1>
+//       {recipes.map((recipe) => (
+//         <div key={recipe.id}>
+//           <h2>{recipe.name}</h2>
+//           <ul>
+//             {recipe.ingredients.map((ingredient) => (
+//               <li key={ingredient}>{ingredient}</li>
+//             ))}
+//           </ul>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// }
+// ?
+
+// !
+
+// const poem = {
+//   lines: [
+//     "I write, erase, rewrite",
+//     "Erase again, and then",
+//     "A poppy blooms.",
+//   ],
+// };
+
+// export default function Poem() {
+//   return (
+//     <article>
+//       {poem.lines.map((line, index) => (
+//         <p key={index}>{line}</p>
+//       ))}
+//     </article>
+//   );
+// }
+//?
