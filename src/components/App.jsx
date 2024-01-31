@@ -166,7 +166,7 @@
 // }
 
 //!
-// src/components/App.jsx
+// src / components / App.jsx;
 
 import { Alert } from "./Alert.jsx";
 
@@ -190,3 +190,5 @@ export const App = () => {
 };
 
 export default App;
+
+// !
