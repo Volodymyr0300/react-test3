@@ -134,3 +134,59 @@
 //   );
 // }
 //?
+
+//!
+// const Card = ({ text }) => {
+//   return <div>{text}</div>;
+// };
+
+// export default function Some() {
+//   return <Card>Text between opening and closing tag</Card>;
+// }
+
+//!
+// const Card = ({ children }) => {
+//   return <div>{children}</div>;
+// };
+// export default function Some() {
+//   return <Card>Text between opening and closing tag</Card>;
+// }
+
+//!
+// const Card = ({ children }) => {
+//   return <div>{children}</div>;
+// };
+// export default function Some() {
+//   return (
+//     <Card>
+//       <h1>Card title</h1>
+//       <p>Text between opening and closing tag</p>
+//     </Card>
+//   );
+// }
+
+//!
+// src/components/App.jsx
+
+import { Alert } from "./Alert.jsx";
+
+export const App = () => {
+  return (
+    <>
+      <Alert variant="info">
+        Would you like to browse our recommended products?
+      </Alert>
+      <Alert variant="error">
+        There was an error during your last transaction
+      </Alert>
+      <Alert variant="success">
+        Payment received, thank you for your purchase
+      </Alert>
+      <Alert variant="warning">
+        Please update your profile contact information
+      </Alert>
+    </>
+  );
+};
+
+export default App;
